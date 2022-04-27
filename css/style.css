@@ -132,10 +132,24 @@ input {font-family:'Playfair Display', serif;
 .social_link ul li a:hover {border-bottom:1px solid #626262 ;}
 .social_link{float: right;}
 /**footer end**/
- @media screen and (max-width: 480px){
-  .banner_content h2{font-size:22px;}
-  .banner_content h3{margin-top:15px;}
-  .single-box{width:100%;}
+@media screen and (max-width: 634px){
+  .menu{width: 100%;
+        float: left;}
+    .logo {
+    margin: 12px 20px;}
+  .menu ul {float: left;
+    padding-left: 0;}
+    .menu ul li a {margin: 0 19px;}
   input{width:70%;}
   .link{margin-bottom:10px;}
+  .single:nth-child(even){margin-left: 0px;}
+.single{width: 100%;}
+.terms {width: 100%; display: block;}
+.social_link{width: 100%;}
+.loadmore {width: 27%;}
+.newsletter h2{margin-right: 51px;}
+}
+@media screen and (max-width: 434px){
+    .loadmore {width:50%;}
+    .footer{padding: 30px 0px;}
 }
