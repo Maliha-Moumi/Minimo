@@ -96,7 +96,7 @@ input {font-family:'Playfair Display', serif;
         background: transparent;
         position: relative;
 }
-.email .sendbtn {
+.email .sendbtn {border: none;
     margin-left: -37px;
 }
 /**newsletter end**/
