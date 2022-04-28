@@ -2,7 +2,7 @@
 body{ margin:0px;
       padding:0px;
       font-family: 'Playfair Display', serif;
-      font-size: 16px;
+      font-size:14pt;
       font-weight:400;
       color: #626262;
 
@@ -47,14 +47,14 @@ header{padding:20px 0;
 .p_content{}
 .c_light{margin:0;
         font-family: 'Ubuntu', sans-serif;
-        font-size:14px;
+        font-size:14pt;
         font-weight:300;
         color:#b4ad9e;
         text-transform:uppercase;
        }
 .c_h1{margin-top:20px ;
       margin-bottom:30px;
-      font-size:30px;
+      font-size:30pt;
       font-weight:400;}
 .c_text{margin:0;
        line-height: 25px;}
@@ -78,7 +78,7 @@ header{padding:20px 0;
            margin:0 auto;
            text-align: center;}
 
-.newsletter h2 {font-size: 30px;
+.newsletter h2 {font-size: 30pt;
     margin-top: 0px;
     margin-bottom: 50px;
     margin-right: 125px;}
@@ -98,6 +98,7 @@ input {font-family:'Playfair Display', serif;
 }
 .email .sendbtn {border: none;
     margin-left: -37px;
+    box-shadow:none;
 }
 /**newsletter end**/
  /**blog2 start**/
